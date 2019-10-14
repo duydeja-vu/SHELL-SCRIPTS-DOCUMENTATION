@@ -127,7 +127,7 @@ _Syntax:_
 
 ## **Regular Expression**
 
-What is Regular Expression?
+### **What is Regular Expression?**
 
 >**A regular expression or regex is a pattern that describes a set of strings. Regular expressions are constructed analogously to arithmetic expressions by using various operators to combine smaller expressions.**
 
@@ -148,7 +148,7 @@ There are some special characters that are known as MetaCharacters. They help us
 
 ## **Bash Environment Variables**
 
-What is Environment Variables?
+### **What is Environment Variables?**
 >**Whenever we talk to a remote server or do anything on a shell, the shell stores data in form of variables which it stores in an area which is called the environment. The shell environment can be defined as a storage area which the shell compiles every time a new session for a shell is started. This is done so that the environment contains any local or global variables we’ve defined since its last start. We will learn about what local and global variables are in the coming section.**
 
 ### **Types of Environment Variables?**
