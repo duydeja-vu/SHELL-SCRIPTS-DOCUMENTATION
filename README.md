@@ -13,14 +13,14 @@ This document is about some advanced knowledge in Shell Script (Bash), including
 ## **Redirection**
 
 ### **What is Redirection?**
->Redirection can be defined as changing the way from where commands read input to where commands sends output. You can redirect input and output of a command.
+>**Redirection can be defined as changing the way from where commands read input to where commands sends output. You can redirect input and output of a command.**
 
 ### **Standard streams in I/O Redirection**
 * _standard input (stdin)_ : The bash shell takes input from stdin. By default, keyboard is used as input.
 * _standard output (stdout)_ : The bash shell sends output to stdout. Output goes to display.
 
 ### **Redirection into a File**
->Each stream uses redirection commands. Single bracket '>' or double bracket '>>' can be used to redirect standard output. If the target file doesn't exist, a new file with the same name will be created.
+>**Each stream uses redirection commands. Single bracket '>' or double bracket '>>' can be used to redirect standard output. If the target file doesn't exist, a new file with the same name will be created.**
 
 #### **Overwrite**
 Commands with a single bracket '>' overwrite existing file content.
@@ -57,7 +57,7 @@ _Example:_
 
 ### **What is the Pipe?**
 
->**pipe** command lets you sends the output of one command to another. Piping, as the term suggests, can redirect the standard output, input, or error of one process to another for further processing. 
+>**pipe command lets you sends the output of one command to another. Piping, as the term suggests, can redirect the standard output, input, or error of one process to another for further processing.** 
 
 _Syntax:_
 
@@ -75,7 +75,7 @@ _Example:_
 
 ### **What is the Filters?**
 
->Filters are programs that take plain text(either stored in a file or produced by another program) as standard input, transforms it into a meaningful format, and then returns it as standard output. Some of the most commonly used filters are explained below. 
+>**Filters are programs that take plain text(either stored in a file or produced by another program) as standard input, transforms it into a meaningful format, and then returns it as standard output. Some of the most commonly used filters are explained below.** 
 
 1. **cat**
 
@@ -106,7 +106,7 @@ _Example:_
 
 ### **What is processing in background?**
 
-> If you have a long-running task, it’s not always wise to wait for it to finish. I mean why keep the terminal occupied for a particular command? In Linux, you can send a command or process to background so that the command would be running but the terminal will be free for you to run other commands.
+>**If you have a long-running task, it’s not always wise to wait for it to finish. I mean why keep the terminal occupied for a particular command? In Linux, you can send a command or process to background so that the command would be running but the terminal will be free for you to run other commands.**
 
 #### **Start a Linux process in background directly**
 
@@ -129,7 +129,7 @@ _Syntax:_
 
 What is Regular Expression?
 
->A regular expression or regex is a pattern that describes a set of strings. Regular expressions are constructed analogously to arithmetic expressions by using various operators to combine smaller expressions.
+>**A regular expression or regex is a pattern that describes a set of strings. Regular expressions are constructed analogously to arithmetic expressions by using various operators to combine smaller expressions.**
 
 There are some special characters that are known as MetaCharacters. They help us in creating more complex regex search term. Mentioned below is the list of basic metacharacters: 
 
@@ -149,7 +149,7 @@ There are some special characters that are known as MetaCharacters. They help us
 ## **Bash Environment Variables**
 
 What is Environment Variables?
->Whenever we talk to a remote server or do anything on a shell, the shell stores data in form of variables which it stores in an area which is called the environment. The shell environment can be defined as a storage area which the shell compiles every time a new session for a shell is started. This is done so that the environment contains any local or global variables we’ve defined since its last start. We will learn about what local and global variables are in the coming section.
+>**Whenever we talk to a remote server or do anything on a shell, the shell stores data in form of variables which it stores in an area which is called the environment. The shell environment can be defined as a storage area which the shell compiles every time a new session for a shell is started. This is done so that the environment contains any local or global variables we’ve defined since its last start. We will learn about what local and global variables are in the coming section.**
 
 ### **Types of Environment Variables?**
 1. **Global Variables**: which are defined as an environment variables are available in all shell sessions which shell compiles
