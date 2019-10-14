@@ -1,6 +1,6 @@
 # **SHELL SCRIPTS DOCUMENTATION**
 
-_Writers: Nguyen Duc Duy and Nguyen Dang Huy, Linux Embedded Trainee at DASAN ZHONE SOLUTIONS_
+_Writer: Nguyen Duc Duy - Linux Embedded Trainee at DASAN ZHONE SOLUTIONS_
 
 This document is about some advanced knowledge in Shell Script (Bash), including:
 1. Redirection
